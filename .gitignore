@@ -1,0 +1,61 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Виртуальное окружение =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Poetry / uv =====
+# poetry.lock и uv.lock — КОММИТИТЬ (не игнорировать!)
+# .venv создаётся автоматически
+
+# ===== Секреты и конфиги =====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# ===== Базы данных =====
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ===== Тесты и кэш =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Логи =====
+*.log
+logs/
+
+# ===== Docker / временное =====
+*.pid
